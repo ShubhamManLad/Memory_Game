@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wall">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-131dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/Color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="543dp"
+            android:fontFamily="@font/monoton"
+            android:gravity="center"
+            android:text="Welcome to Simon Game"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="198dp"
+            android:layout_marginEnd="197dp"
+            android:layout_marginBottom="442dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="32dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Red"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="343dp"
+            android:foreground="#FD0101" />
+
+        <Button
+            android:id="@+id/Yellow"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="316dp"
+            android:layout_marginBottom="338dp"
+            android:foreground="#FFB600" />
+
+        <Button
+            android:id="@+id/Blue"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="216dp"
+            android:layout_marginBottom="224dp"
+            android:foreground="#020EFF" />
+
+        <Button
+            android:id="@+id/Green"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginBottom="225dp"
+            android:foreground="#4CAF50" />
+
+        <Button
+            android:id="@+id/Start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="161dp"
+            android:layout_marginEnd="162dp"
+            android:layout_marginBottom="105dp"
+            android:text="Start" />
+
+        <TextView
+            android:id="@+id/HighScore"
+            android:layout_width="38dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="29dp"
+            android:fontFamily="@font/aladin"
+            android:gravity="right"
+            android:text="00"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="92dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/aladin"
+            android:text="High Score:"
+            android:textColor="@color/white"
+            android:textSize="28dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
